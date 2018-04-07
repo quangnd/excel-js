@@ -1,12 +1,13 @@
 {
-  "name": "excel",
+  "name": "read-excel-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "quangnd",
   "license": "ISC",
   "dependencies": {
     "exceljs": "^1.1.0"

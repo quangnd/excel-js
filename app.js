@@ -1,9 +1,10 @@
 const Excel = require('exceljs');
 
 const workbook = new Excel.Workbook();
-const filename = "test.xlsx"
+const fileName = "test.xlsx"
 
-workbook.xlsx.readFile(filename)
+console.log(`Processing ${fileName}...`)
+workbook.xlsx.readFile(fileName)
 	.then(function () {
 		const worksheet = workbook.getWorksheet('Profile and Delivery');
 		const deliveryCol = worksheet.getColumn('E');
